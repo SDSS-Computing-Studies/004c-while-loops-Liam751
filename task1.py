@@ -16,3 +16,7 @@ Example:
 10
 ...
 """
+num = 0
+while num != 20:
+    num = num +2
+    print(str(num))

@@ -13,3 +13,9 @@ after the number in the sequence is greater than 100:
 Example:
 1 1 2 3 5 ...
 """
+b = 0
+a = 1
+while a < 101:
+    print(str(int(a)), end=" ")
+    b = a
+    a = a + b
