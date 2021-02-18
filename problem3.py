@@ -13,9 +13,15 @@ after the number in the sequence is greater than 100:
 Example:
 1 1 2 3 5 ...
 """
-b = 0
-a = 1
-while a < 101:
-    print(str(int(a)), end=" ")
-    b = a
-    a = a + b
+
+a = 0
+b = 1
+c = 1
+
+while (b <= 101):
+    print(b, end=" ")
+    a = b + c
+    b = c
+    c = a
+    if b > 100:
+        break
