@@ -18,10 +18,10 @@ a = 0
 b = 1
 c = 1
 
-while (b <= 101):
+while (b < 150):
     print(b, end=" ")
     a = b + c
     b = c
     c = a
-    if b > 100:
+    if b > 150:
         break
