@@ -24,4 +24,4 @@ while (b < 150):
     b = c
     c = a
     if b > 150:
-        break
+        break 
